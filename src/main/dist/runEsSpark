@@ -1,0 +1,1 @@
+java -cp .:`echo dist/lib/*.jar|tr ' ' ':'`:spark-es-1.0.jar SimpleApp "$@"
